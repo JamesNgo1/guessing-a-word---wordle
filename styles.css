@@ -15,25 +15,6 @@ body{
     background-color:#1bb295;
 }
 
-.wrapper{
-    width: 430px;
-    background: #fff;
-    border-radius: 15px;
-}
-
-.wrapper h1{
-
-    font-size: 25px;
-    font-weight: 500;
-    padding: 20px 25px;
-    border-bottom: 1px solid #ccc;
-
-
-}
-
-.wrapper .content{
-    margin: 25px 25px 35px;
-}
 /*
     hide the input tag while it works in the background
 */
@@ -45,12 +26,36 @@ body{
 }
 
 
-
 .content .inputs{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
+}
+
+.content .reset-btn{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px 0;
+    background: #1bb295;
+    border-radius: 5px;
+}
+
+.content .reset-btn:hover{
+    background-color: rgba(27, 178, 149, 0.7);
+}
+
+.content .details{
+    margin: 20px 0 25px;
+}
+
+.details p{
+    font-size: 19px;
+    margin-bottom: 10px;
 }
 
 .inputs input{
@@ -70,28 +75,22 @@ body{
     margin-left: 0px;
 }
 
-.content .details{
-    margin: 20px 0 25px;
+.wrapper{
+    width: 430px;
+    background: #fff;
+    border-radius: 15px;
 }
 
-.details p{
-    font-size: 19px;
-    margin-bottom: 10px;
+.wrapper h1{
+
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
 }
 
-.content .reset-btn{
-    width: 100%;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color: #fff;
-    font-size: 17px;
-    padding: 15px 0;
-    background: #1bb295;
-    border-radius: 5px;
+.wrapper .content{
+    margin: 25px 25px 35px;
 }
 
-.content .reset-btn:hover{
-    background-color: rgba(27, 178, 149, 0.7);
-}
 
