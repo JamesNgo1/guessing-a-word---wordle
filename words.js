@@ -1,3 +1,4 @@
+//Object of a list of words
 let wordList = [
     {
         word: "goat",

@@ -12,7 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color:#1bb295;
+    background-color:#2b026e;
 }
 
 /*
@@ -41,12 +41,13 @@ body{
     color: #fff;
     font-size: 17px;
     padding: 15px 0;
-    background: #1bb295;
+    background: #2b026e;
     border-radius: 35px;
 }
 
+/*Change the color opacity when hovering over the button*/
 .content .reset-btn:hover{
-    background-color: rgba(27, 178, 149, 0.7);
+    background-color: rgba(43, 2, 110, 0.7);
 }
 
 .content .details{

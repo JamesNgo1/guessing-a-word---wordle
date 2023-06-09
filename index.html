@@ -11,15 +11,14 @@
     <div class="wrapper">
         <h1>Guess the word</h1>
         <div class="content">
-            <input type="text" class="typing-input" maxlength ="1">
-            <div class="inputs"></div>
-
+            <input type="text" class="typing-input" maxlength ="1"><!--one input at time -->
+            <div class="inputs"></div><!--would be auto updated with the new random word-->
             <div class="details">
+                <!--all p tags would be adjusted after reset or adjusted after an event-->
                 <p class="hint">Hint: <span></span></p>
                 <p class="guess-left">remaining-guesses: <span></span></p>
                 <p class="wrong-letter">wrong-letters: <span></span></p>
             </div>
-
             <button class="reset-btn">Reset Game</button>
         </div>
         
