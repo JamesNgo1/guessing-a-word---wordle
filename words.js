@@ -1,5 +1,10 @@
 let wordList = [
     {
+        word: "nfl",
+        hint: "America's football league"
+
+    },
+    {
         word: "python",
         hint: "programming language"
     },
