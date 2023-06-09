@@ -34,6 +34,17 @@ body{
 .wrapper .content{
     margin: 25px 25px 35px;
 }
+/*
+    hide the input tag while it works in the background
+*/
+.content .typing-input{
+    opacity: 0;
+    z-index: -999;
+    position: absolute;
+
+}
+
+
 
 .content .inputs{
     display: flex;
